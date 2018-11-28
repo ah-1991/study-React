@@ -58,6 +58,7 @@ class Game extends React.Component {
       }],
       stepNumber: 0,
       xIsNext: true,
+      orderBy: 'src',
     };
   }
 
@@ -89,6 +90,12 @@ class Game extends React.Component {
     });
   }
 
+  orderBy() {
+    this.setState({
+      orderBy: this.state.orderBy === 'src' ? 'desc' : 'src',
+    });
+  }
+
   render() {
     const history = this.state.history;
     const stepNumber = this.state.stepNumber
@@ -110,6 +117,10 @@ class Game extends React.Component {
       );
     });
 
+    if (this.state.orderBy === 'desc') {
+      moves.reverse();
+    }
+
     let status;
     if (winner) {
       status = 'Winner: ' + winner;
@@ -127,6 +138,12 @@ class Game extends React.Component {
         </div>
         <div className="game-info">
           <div>{status}</div>
+          <div>
+            <button
+              onClick={() => this.orderBy()}>
+              {this.state.orderBy === 'src' ? 'descending order' : 'ascending order'}
+            </button>
+          </div>
           <ol>{moves}</ol>
         </div>
       </div>
