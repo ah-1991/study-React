@@ -52,3 +52,7 @@ ol, ul {
 .font-weight-bold {
   font-weight: bold;
 }
+
+.winner-highlight {
+  background: rgba(255, 212, 0, 0.98);
+}
