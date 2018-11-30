@@ -26,9 +26,7 @@ class Board extends React.Component {
 
   renderBoardRow(array) {
     return (
-      array.map((elm, index) => {
-        return this.renderSquare(elm);
-      })
+      array.map(elm => this.renderSquare(elm))
     );
   }
 
