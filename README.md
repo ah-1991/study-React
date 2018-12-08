@@ -15,3 +15,6 @@ reactの勉強を記録していきます。
   - クラス
   - 参考
     - https://jsprimer.net/basic/condition/#else-if-statement
+## □ 3.Babel入門
+- 目標
+  - トランスコンパイルしたソースを確認する
