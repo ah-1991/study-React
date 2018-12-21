@@ -1,6 +1,6 @@
 # study-React
 reactの勉強を記録していきます。
-## □ 1.チュートリアル
+## □ 1.Reactチュートリアル
 - 目標
   - Reactに触る
   - 既に存在する機能を改修してみる
@@ -8,7 +8,7 @@ reactの勉強を記録していきます。
   - 参考
     - https://reactjs.org/tutorial/tutorial.html
 - https://codepen.io/ah-1991/pen/YRLvEa
-## □ 2.ES2015以降の復讐＆学習
+## □ 2.ES2015以降の復習＆学習
 - 目標
   - Async Function
   - Arrow Function
