@@ -12,7 +12,12 @@
 1. `npx webpack`
     - `src/index.js`がエントリーポイント
     - `dist/main.js`が出力される
-
+### 設定ファイルを使用する
+- バージョン4は設定ファイルがなくても動く
+- `webpack.config.js`を配置する
+- 設定ファイルを読み込んで実行
+  - `npx webpack --config webpack.config.js`
+  - `webpack.config.js`が存在すればデフォルトで読み込む、--configは任意のファイル名を指定するときに使う
 
 
 
