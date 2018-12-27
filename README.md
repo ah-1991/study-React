@@ -14,7 +14,7 @@ reactの勉強を記録していきます。
   - Arrow Function
   - クラス
   - 参考
-    - https://jsprimer.net/basic/condition/#else-if-statement
+    - https://jsprimer.net/
 ## □ 3.Babel入門
 - 目標
   - トランスパイルしたソースを確認する
